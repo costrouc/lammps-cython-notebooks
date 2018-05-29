@@ -3,6 +3,7 @@ channels:
   - costrouc
   - conda-forge
 dependencies:
+  - ffmpeg
   - numpy
   - matplotlib
   - lammps-cython
