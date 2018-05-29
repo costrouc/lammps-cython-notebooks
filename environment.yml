@@ -1,7 +1,7 @@
 name: lammps-cython-environment
 channels:
-  - conda-forge
   - costrouc
+  - conda-forge
 dependencies:
   - numpy
   - matplotlib
