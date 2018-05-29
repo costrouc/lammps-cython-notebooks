@@ -7,4 +7,3 @@ dependencies:
   - numpy
   - matplotlib
   - lammps-cython
-  - pymatgen

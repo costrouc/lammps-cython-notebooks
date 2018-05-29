@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# pymatgen not available on conda
+pip install pymatgen
