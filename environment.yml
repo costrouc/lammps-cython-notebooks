@@ -3,6 +3,8 @@ channels:
   - costrouc
   - conda-forge
 dependencies:
+  - jupyterlab_launcher
+  - ipython
   - ffmpeg
   - numpy
   - matplotlib
