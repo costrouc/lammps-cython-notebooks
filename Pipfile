@@ -12,6 +12,7 @@ matplotlib = "*"
 lammps-cython = "*"
 "mpi4py" = "*"
 jupyterlab = "*"
+pymatgen = "*"
 
 
 [dev-packages]

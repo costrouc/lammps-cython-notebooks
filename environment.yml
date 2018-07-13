@@ -9,3 +9,5 @@ dependencies:
   - numpy
   - matplotlib
   - lammps-cython
+  - pip
+    - pymatgen
