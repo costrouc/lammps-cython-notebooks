@@ -1,2 +1,7 @@
 .ipynb_checkpoints
+
+# Ignore lammps files
 log.lammps
+*.table
+*.sw
+*.tersoff
