@@ -13,6 +13,7 @@ lammps-cython = "*"
 "mpi4py" = "*"
 jupyterlab = "*"
 pymatgen = "*"
+pybtex = "*"
 
 
 [dev-packages]

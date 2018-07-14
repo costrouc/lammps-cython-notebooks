@@ -11,3 +11,4 @@ dependencies:
   - lammps-cython
   - pip
     - pymatgen
+    - pybtex
