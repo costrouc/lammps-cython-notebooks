@@ -1,4 +1,6 @@
 test_binder:
   image: jupyter/repo2docker:6a10332
+  services:
+    - docker:dind
   script:
     - repo2docker .
