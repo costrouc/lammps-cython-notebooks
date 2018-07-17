@@ -4,7 +4,7 @@
 
 [![pipeline status](https://gitlab.com/costrouc/lammps-cython-notebooks/badges/master/pipeline.svg)](https://gitlab.com/costrouc/lammps-cython-notebooks/commits/master)
 
-See the `notebooks` for working examples.
+See the [notebooks](https://gitlab.com/costrouc/lammps-cython-notebooks/tree/master/notebooks) for working examples.
 
 For a description of what binders are see
 [here](https://github.com/jupyterhub/binderhub). It is a way to
