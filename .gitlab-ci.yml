@@ -1,0 +1,4 @@
+test_binder:
+  image: jupyter/repo2docker:6a10332
+  script:
+    - repo2docker .
