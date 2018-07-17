@@ -2,5 +2,6 @@ test_binder:
   image: ubuntu:latest
   script:
     - apt update && apt install docker.io python3-pip -y
+    - which docker
     - pip3 install jupyter-repo2docker
     - repo2docker .
