@@ -1,8 +1,13 @@
 test_binder:
   image: ubuntu:latest
+  services:
+    - docker:dind
+  variables:
+     DOCKER_HOST: tcp://docker:2375
+     DOCKER_DRIVER: overlay2
   script:
     - apt update && apt install docker.io python3-pip -y
     - which docker
-    - docker
+    - docker info
     - pip3 install jupyter-repo2docker
     - repo2docker https://github.com/costrouc/lammps-cython-notebooks/
