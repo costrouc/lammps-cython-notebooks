@@ -10,6 +10,6 @@ test_binder:
     - which docker
     - docker info
     - pip3 install jupyter-repo2docker
-    - export VERSION=$(python3 -c "import repo2docker; print(repo2docker.__version__)")
+    - 'export VERSION=$(python3 -c "import repo2docker; print(repo2docker.__version__)")'
     - echo "repo2docker version: ${VERSION}"
     - jupyter-repo2docker --debug --user-name username --user-id 1000 --no-run --image-name "${CI_PROJECT_PATH}:${CI_COMMIT_SHA}" "${CI_PROJECT_URL}"
